@@ -1,0 +1,46 @@
+body {
+    color: #2f80ed;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    background-position: center;
+    text-align: center;
+    min-height: 100vh
+}
+
+.header {
+    font-size: 120px;
+    line-height: 140px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.header:hover~.description {
+    opacity: 1;
+}
+
+.boxes-image {
+    margin-top: 110px;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    opacity: 0;
+    transition: opacity .4s ease-in-out;
+    text-align: center;
+}
+
+.footer-practicum {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+.footer-link {
+    color: #2f80ed;
+}
